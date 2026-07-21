@@ -7,211 +7,244 @@
 <body>
 
   <!-- 1. Navigation -->
-  <header>
-    <nav aria-label="Main navigation">
-      <div class="nav-left">
-        <a href="#shop">SHOP</a>
-        <a href="#about-us">ABOUT US</a>
-        <a href="#skin-quiz">SKIN QUIZ</a>
+<header>
+  <nav aria-label="Main navigation">
+    <div class="nav-left">
+      <a href="#shop">SHOP</a>
+      <a href="#about-us">ABOUT US</a>
+      <a href="#skin-quiz">SKIN QUIZ</a>
+    </div>
+
+    <div class="nav-center">
+      <a href="#home" class="nav-logo" aria-label="Eloré homepage">eloré</a>
+    </div>
+
+    <div class="nav-right">
+      <a href="#search">SEARCH</a>
+      <a href="#account">ACCOUNT</a>
+      <a href="#cart">CART</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- 2. Hero section -->
+  <section id="home" aria-labelledby="hero-title">
+    <div class="hero-content">
+      <p class="hero-kicker">JUST DROPPED</p>
+      <h1 id="hero-title">PLUMP PREP, SOFT FINISH</h1>
+      <p>meet our new lip plumping mask with a</p>
+      <p>tingly-feel that leaves your lips cushion</p>
+      <p>soft, hydrated and full.</p>
+      <button type="button">shop now</button>
+    </div>
+
+    <figure class="hero-image">
+      <img src="https://emeliesahlstrom.github.io/images/hero-homepage-desktop-jpg.jpeg"
+           alt="Lip plumping mask product hero image">
+    </figure>
+  </section>
+
+  <!-- 3. Featured products section -->
+  <section id="featured-products" aria-labelledby="featured-heading">
+    <header class="section-header">
+      <h2 id="featured-heading">FEATURED PRODUCTS</h2>
+      <div class="featured-controls">
+        <button type="button" aria-label="Previous featured product">&lt;-</button>
+        <button type="button" aria-label="Next featured product">-&gt;</button>
       </div>
+    </header>
 
-      <div class="nav-logo">
-        <a href="#home" aria-label="Eloré homepage">[eloré]</a>
-      </div>
+    <!-- Horizontal row -->
+    <div class="product-row">
 
-      <div class="nav-right">
-        <a href="#search">SEARCH</a>
-        <a href="#account">ACCOUNT</a>
-        <a href="#cart">CART</a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-
-    <!-- 2. Hero section -->
-    <section id="home" aria-labelledby="hero-title">
-      <div class="hero-content">
-        <p class="hero-kicker">JUST DROPPED</p>
-        <h1 id="hero-title">PLUMP PREP, SOFT FINISH</h1>
-        <p>meet our new lip plumping mask with a</p>
-    <p>tingly-feel that leaves your lips cushion</p>
-    <p>soft, hydrated and full.</p
+      <!-- Product 1 -->
+      <article class="product-card">
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/product-card-01-desktop.png"
+               alt="Peachy 10% niacinamide serum">
+        </figure>
+        <div class="product-rating" aria-label="Rated 5 out of 5 stars">
+          <span>★ ★ ★ ★ ★</span>
+        </div>
+        <p>
+          <strong>Peachy 10% niacinamide serum</strong>
+          <span>55AUD</span>
+        </p>
+        <p>Serum</p>
         <button type="button">shop now</button>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="product-card">
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/product-card-02-desktop.png"
+               alt="Hydrating cream moisturiser">
+        </figure>
+        <div class="product-rating" aria-label="Rated 5 out of 5 stars">
+          <span>★ ★ ★ ★ ★</span>
+        </div>
+        <p>
+          <strong>Hydrating cream moisturiser</strong>
+          <span>32AUD</span>
+        </p>
+        <p>Moisturiser</p>
+        <button type="button">shop now</button>
+      </article>
+
+      <!-- Product 3 -->
+      <article class="product-card">
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/product-card-03-desktop.png"
+               alt="Barrier repairing face mist">
+        </figure>
+        <div class="product-rating" aria-label="Rated 5 out of 5 stars">
+          <span>★ ★ ★ ★ ★</span>
+        </div>
+        <p>
+          <strong>Barrier repairing face mist</strong>
+          <span>39AUD</span>
+        </p>
+        <p>Face mist</p>
+        <button type="button">shop now</button>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- 4. Eloré brand statement section -->
+  <section id="brand-statement" aria-labelledby="brand-heading">
+    <div class="brand-layout">
+
+      <!-- Ingredient grid -->
+      <div class="brand-ingredients-grid" aria-label="Key ingredient images">
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/eloré-card-01-desktop.jpeg"
+               alt="Ingredient image 1">
+        </figure>
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/eloré-card-02-desktop.jpeg"
+               alt="Ingredient image 2">
+        </figure>
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/eloré-card-03-desktop.png"
+               alt="Ingredient image 3">
+        </figure>
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/eloré-card-04-desktop.png"
+               alt="Ingredient image 4">
+        </figure>
       </div>
-      <figure class="hero-image">
-        <img src="#" alt="Lip plumping mask product hero image">
+
+      <article class="brand-card">
+        <h2 id="brand-heading">eloré</h2>
+
+        <div class="brand-description">
+          <p>To protect, nourish and enhance your beauty. Our skincare</p>
+          <p>and makeup are made for you to feel good. Whether you’re</p>
+          <p>on-the-go or in a rush our products deliver flawless results</p>
+          <p>for your AM and PM routines.</p>
+        </div>
+
+        <div class="brand-actions">
+          <button type="button">Our story</button>
+          <button type="button">Our values</button>
+          <button type="button">Ingredients</button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- 5. Shop by category section -->
+  <section id="shop-by-category" aria-labelledby="category-heading">
+    <h2 id="category-heading">SHOP BY CATEGORY</h2>
+
+    <div class="category-row">
+
+      <article class="category-card">
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/category-card-01-desktop.png"
+               alt="Skincare products">
+          <figcaption>SKINCARE</figcaption>
+        </figure>
+      </article>
+
+      <article class="category-card">
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/category-card-02-desktop.png"
+               alt="Makeup products">
+          <figcaption>MAKEUP</figcaption>
+        </figure>
+      </article>
+
+      <article class="category-card">
+        <figure>
+          <img src="https://emeliesahlstrom.github.io/images/category-card-03-desktop.png"
+               alt="Bestselling products">
+          <figcaption>BESTSELLERS</figcaption>
+        </figure>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- 6. Find us on Instagram section -->
+  <section id="instagram" aria-labelledby="instagram-heading">
+    <header class="section-header">
+      <h2 id="instagram-heading">FIND US ON INSTAGRAM</h2>
+      <button type="button">FOLLOW US</button>
+    </header>
+
+    <div class="instagram-row">
+
+      <figure class="instagram-card">
+        <img src="https://emeliesahlstrom.github.io/images/instagram-card-01-desktop.png"
+             alt="Eloré product image 1">
       </figure>
-    </section>
 
-    <!-- 3. Featured products section -->
-    <section id="featured-products" aria-labelledby="featured-heading">
-      <header class="section-header">
-        <h2 id="featured-heading">FEATURED PRODUCTS</h2>
-        <div class="featured-controls">
-          <button type="button" aria-label="Previous featured product">&lt;-</button>
-          <button type="button" aria-label="Next featured product">-&gt;</button>
-        </div>
-      </header>
+      <figure class="instagram-card">
+        <img src="https://emeliesahlstrom.github.io/images/instagram-card-02-desktop.png"
+             alt="Eloré product image 2">
+      </figure>
 
-      <div class="product-list" role="list">
-        <!-- Product 1 -->
-        <article class="product-card" role="listitem">
-          <figure>
-            <img src="#" alt="Peachy 10% niacinamide serum">
-          </figure>
-          <div class="product-rating" aria-label="Rated 5 out of 5 stars">
-            <span>★ ★ ★ ★ ★</span>
-          </div>
-          <p>
-            <strong>Peachy 10% niacinamide serum</strong>
-            <span>55AUD</span>
-          </p>
-          <p>Serum</p>
-          <button type="button">shop now</button>
-        </article>
+      <figure class="instagram-card">
+        <img src="https://emeliesahlstrom.github.io/images/instagram-card-03-desktop.png"
+             alt="Eloré lifestyle image 1">
+      </figure>
 
-        <!-- Product 2 -->
-        <article class="product-card" role="listitem">
-          <figure>
-            <img src="#" alt="Hydrating cream moisturiser">
-          </figure>
-          <div class="product-rating" aria-label="Rated 5 out of 5 stars">
-            <span>★ ★ ★ ★ ★</span>
-          </div>
-          <p>
-            <strong>Hydrating cream moisturiser</strong>
-            <span>32AUD</span>
-          </p>
-          <p>Moisturiser</p>
-          <button type="button">shop now</button>
-        </article>
+      <figure class="instagram-card">
+        <img src="https://emeliesahlstrom.github.io/images/instagram-card-04-desktop.png"
+             alt="Eloré lifestyle image 2">
+      </figure>
 
-        <!-- Product 3 -->
-        <article class="product-card" role="listitem">
-          <figure>
-            <img src="#" alt="Barrier repairing face mist">
-          </figure>
-          <div class="product-rating" aria-label="Rated 5 out of 5 stars">
-            <span>★ ★ ★ ★ ★</span>
-          </div>
-          <p>
-            <strong>Barrier repairing face mist</strong>
-            <span>39AUD</span>
-          </p>
-          <p>Face mist</p>
-          <button type="button">shop now</button>
-        </article>
-      </div>
-    </section>
+    </div>
 
-    <!-- 4. Eloré brand statement section -->
-    <section id="brand-statement" aria-labelledby="brand-heading">
-      <div class="brand-layout">
-        <div class="brand-ingredients-grid" aria-label="Key ingredient images">
-          <figure>
-            <img src="#" alt="Ingredient image 1">
-          </figure>
-          <figure>
-            <img src="#" alt="Ingredient image 2">
-          </figure>
-          <figure>
-            <img src="#" alt="Ingredient image 3">
-          </figure>
-          <figure>
-            <img src="#" alt="Ingredient image 4">
-          </figure>
-        </div>
+    <div class="instagram-controls">
+      <button type="button" aria-label="Previous Instagram image">&lt;-</button>
+      <button type="button" aria-label="Next Instagram image">-&gt;</button>
+    </div>
 
-        <article class="brand-card">
-          <h2 id="brand-heading">eloré</h2>
+  </section>
 
-          <div class="brand-description">
-    <p>To protect, nourish and enhance your beauty. Our skincare</p>
-    <p>and makeup are made for you to feel good. Whether you’re</p>
-    <p>on-the-go or in a rush our products deliver flawless results</p>
-    <p>for your AM and PM routines.</p>
-          </div>
-          
-          <div class="brand-actions">
-            <button type="button">Our story</button>
-            <button type="button">Our values</button>
-            <button type="button">Ingredients</button>
-          </div>
-        </article>
-      </div>
-    </section>
+</main>
 
-    <!-- 5. Shop by category section -->
-    <section id="shop-by-category" aria-labelledby="category-heading">
-      <h2 id="category-heading">SHOP BY CATEGORY</h2>
-      <div class="category-cards">
-        <article class="category-card">
-          <figure>
-            <img src="#" alt="Skincare products">
-            <figcaption>SKINCARE</figcaption>
-          </figure>
-        </article>
+<!-- 7. Footer -->
+<footer aria-label="Site footer">
+  <div class="footer-top">
 
-        <article class="category-card">
-          <figure>
-            <img src="#" alt="Makeup products">
-            <figcaption>MAKEUP</figcaption>
-          </figure>
-        </article>
+    <div class="footer-left">
+      <h3>sign up for updates</h3>
+      <form action="#" method="post">
+        <label for="newsletter-email" class="visually-hidden">Email address</label>
+        <input id="newsletter-email" type="email" name="email" placeholder="email address" required>
+        <p>by signing up you agree to our terms &amp; conditions</p>
+      </form>
+    </div>
 
-        <article class="category-card">
-          <figure>
-            <img src="#" alt="Bestselling products">
-            <figcaption>BESTSELLERS</figcaption>
-          </figure>
-        </article>
-      </div>
-    </section>
+    <div class="footer-right">
 
-    <!-- 6. Find us on Instagram section -->
-    <section id="instagram" aria-labelledby="instagram-heading">
-      <header class="section-header">
-        <h2 id="instagram-heading">FIND US ON INSTAGRAM</h2>
-        <button type="button">FOLLOW US</button>
-      </header>
-
-      <div class="instagram-gallery">
-        <figure>
-          <img src="#" alt="Eloré product image 1">
-        </figure>
-        <figure>
-          <img src="#" alt="Eloré product image 2">
-        </figure>
-        <figure>
-          <img src="#" alt="Eloré lifestyle image 1">
-        </figure>
-        <figure>
-          <img src="#" alt="Eloré lifestyle image 2">
-        </figure>
-
-        <div class="instagram-controls">
-          <button type="button" aria-label="Previous Instagram image">&lt;-</button>
-          <button type="button" aria-label="Next Instagram image">-&gt;</button>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- 7. Footer -->
-  <footer aria-label="Site footer">
-    <div class="footer-top">
-      <div class="footer-left">
-        <h3>sign up for updates</h3>
-        <form action="#" method="post">
-          <label for="newsletter-email" class="visually-hidden">Email address</label>
-          <input id="newsletter-email" type="email" name="email" placeholder="email address" required>
-          <p>by signing up you agree to our terms &amp; conditions</p>
-        </form>
-      </div>
-
-      <div class="footer-right">
       <div class="footer-column">
         <h3>CUSTOMER SERVICE</h3>
         <ul>
@@ -220,7 +253,7 @@
           <li><a href="#faqs">FAQs</a></li>
         </ul>
       </div>
- 
+
       <div class="footer-column">
         <h3>FOLLOW US</h3>
         <ul>
@@ -230,23 +263,25 @@
           <li><a href="#pinterest">Pinterest</a></li>
         </ul>
       </div>
-    </div>
 
-    <div class="footer-logo">
-      <strong>eloré</strong>
     </div>
+  </div>
 
-    <div class="footer-bottom">
-      <div class="footer-bottom-left">
-        <a href="#terms">Terms &amp; conditions</a>
-        <a href="#privacy">Privacy policy</a>
-        <a href="#accessibility">Accessibility</a>
-      </div>
-      <div class="footer-bottom-right">
-        <small>© Eloré 2026</small>
-      </div>
+  <div class="footer-logo">
+    <strong>eloré</strong>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-left">
+      <a href="#terms">Terms &amp; conditions</a>
+      <a href="#privacy">Privacy policy</a>
+      <a href="#accessibility">Accessibility</a>
     </div>
-  </footer>
+    <div class="footer-bottom-right">
+      <small>© Eloré 2026</small>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
