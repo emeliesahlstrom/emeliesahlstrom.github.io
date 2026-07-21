@@ -1,0 +1,9 @@
+.hero-content {
+  height: 80vh;
+  background: url("https://emeliesahlstrom.github.io/images/hero-homepage-desktop-jpg.jpeg") top left / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  padding-left: 40px; /* left spacing */
+  color: #000; /* optional: ensure text is visible */
+}
