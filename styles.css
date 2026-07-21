@@ -115,11 +115,6 @@ nav a {
   margin-right: var(--space-md);
 }
 
-.nav-logo {
-  font-size: 48px;
-  font-family: var(--font-heading);
-}
-
 .nav-left a:last-child,
 .nav-right a:last-child {
   margin-right: 0;
@@ -140,7 +135,6 @@ nav a {
   color: var(--color-text);
 }
 
-  
 /* ================================
    BUTTONS
 ================================ */
