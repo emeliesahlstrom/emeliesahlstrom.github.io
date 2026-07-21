@@ -140,6 +140,9 @@ nav a {
   color: var(--color-text);
 }
 
+.hero-kicker {
+  font-weight: bold;
+  
 /* ================================
    BUTTONS
 ================================ */
