@@ -18,9 +18,9 @@
   line-height: 1.1;
 }
 
-.hero-description p {
+#home .hero-content p {
   line-height: 1.2;
-}
+} 
 
 /* ================================
    ROOT DESIGN SYSTEM
