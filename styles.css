@@ -6,7 +6,10 @@
   justify-content: center; /* vertical centering */
   padding-left: 40px; /* left spacing */
   color: #000; /* optional: ensure text is visible */
+
+  border-radius: 20px;
 }
+
 /* ================================
    ROOT DESIGN SYSTEM
 ================================ */
