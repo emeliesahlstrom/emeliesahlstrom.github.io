@@ -18,8 +18,8 @@
   line-height: 1.1;
 }
 
-#home .hero-content br {
-  line-height: 0.6;
+#home .hero-content p {
+  margin-bottom: 4px;
 }
 
 
