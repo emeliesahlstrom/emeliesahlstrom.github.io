@@ -14,9 +14,10 @@
   font-weight: bold;
 } 
 
-#hero-title {
+#home .hero-content #hero-title {
   line-height: 1.1;
 }
+
 
 /* ================================
    ROOT DESIGN SYSTEM
