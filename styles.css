@@ -28,7 +28,8 @@
   height: 25px;
   padding: 0; /* ensures the height stays exactly 25px */
   margin-top: 12px;
-  border: 1px solid #4E4E4C;
+
+  border: 1px solid #4E4E4C !important;
 }
 
 
