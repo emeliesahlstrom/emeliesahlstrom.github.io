@@ -23,6 +23,11 @@
   line-height: 1.2;
 }
 
+#home .hero-content button {
+  width: 151px;
+  height: 25px;
+  padding: 0; /* ensures the height stays exactly 25px */
+}
 
 
 /* ================================
