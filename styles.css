@@ -27,6 +27,7 @@
   width: 151px;
   height: 25px;
   padding: 0; /* ensures the height stays exactly 25px */
+  margin-top: 12px;
 }
 
 
