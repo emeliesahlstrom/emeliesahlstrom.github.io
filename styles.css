@@ -281,7 +281,7 @@ section {
 .brand-ingredients-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-xs);
+  gap: var(--space-sm);
 }
 
 .brand-card {
