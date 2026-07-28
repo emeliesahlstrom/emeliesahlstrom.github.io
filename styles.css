@@ -265,6 +265,10 @@ section {
   align-items: baseline;
 }
 
+.product-card p {
+  margin: 0;
+}
+
 /* ================================
    BRAND STATEMENT
 ================================ */
