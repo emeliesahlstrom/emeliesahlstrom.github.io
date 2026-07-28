@@ -287,7 +287,10 @@ section {
 .brand-card {
   display: flex;
   flex-direction: column;
-  gap: var(--space-lg);
+  gap: var(--space-xl);
+  background: var(--color-secondary);
+  padding: var(--space-2xl);
+  border-radius: 10px;
 }
 
 .brand-ingredients-grid img {
@@ -300,6 +303,28 @@ section {
 
 .brand-ingredients-grid figure {
   margin: 0;
+} 
+
+.brand-description p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.brand-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.brand-actions button {
+  background: var(--color-accent);
+  color: var(--color-text);
+  text-align: left;
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: 8px;
+  border: none;
 }
 
 /* ================================
