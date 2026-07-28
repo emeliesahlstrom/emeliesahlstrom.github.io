@@ -298,6 +298,10 @@ section {
   border-radius: 10px;
 }
 
+.brand-ingredients-grid figure {
+  margin: 0;
+}
+
 /* ================================
    SHOP BY CATEGORY
 ================================ */
