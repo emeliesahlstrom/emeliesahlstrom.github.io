@@ -201,10 +201,13 @@ section {
   padding: 5px 32px;
   border-radius: 7px;
 
-  display: flex; 
-  justify-content: center; 
-  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;   /* left-align the text */
+  align-items: center;
 
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: var(--space-xl);
 }
 
