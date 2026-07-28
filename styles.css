@@ -290,6 +290,13 @@ section {
   gap: var(--space-lg);
 }
 
+.brand-ingredients-grid img {
+  width: 241px;
+  height: 256px;
+  object-fit: cover;
+  display: block;
+}
+
 /* ================================
    SHOP BY CATEGORY
 ================================ */
