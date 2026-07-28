@@ -239,6 +239,13 @@ section {
   display: block;
 }
 
+.product-card img[src*="product-card-01-desktop.png"] {
+  width: 353px;
+  height: 235px;
+  object-fit: cover;
+}
+
+
 /* ================================
    BRAND STATEMENT
 ================================ */
