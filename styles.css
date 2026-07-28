@@ -330,9 +330,13 @@ section {
 }
 
 .brand-card img#brand-heading {
-  width: 160px;
+  width: 130px;
   height: auto;
   display: block;
+}
+
+.brand-actions {
+  margin-top: var(--space-lg);
 }
 
 /* ================================
