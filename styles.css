@@ -197,14 +197,15 @@ section {
 }
 
 .section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--space-xl);
+  background: #F0E0E3;
+  padding: 10px 20px;
+  border-radius: 7px;
 
-  background: #F0E0E3; /* pink background */
-  padding: 10px 32px; /* match your Figma spacing */
-  border-radius: 7px; /* rounded pill shape */
+  display: inline-flex; /* makes the pill shrink to content */
+  justify-content: center; /* centers the text inside */
+  align-items: center;
+
+  margin-bottom: var(--space-xl);
 }
 
 
