@@ -259,6 +259,12 @@ section {
   font-weight: bold;
 }
 
+.product-title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 /* ================================
    BRAND STATEMENT
 ================================ */
