@@ -99,9 +99,9 @@ body {
 }
 
 body {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 0;
 }
+
 
 main, header, footer {
   max-width: var(--content-max-width);
