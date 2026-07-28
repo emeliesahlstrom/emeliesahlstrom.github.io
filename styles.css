@@ -208,6 +208,12 @@ section {
   margin-bottom: var(--space-xl);
 }
 
+#featured-products .section-header {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 /* ================================
    FEATURED PRODUCTS
