@@ -223,7 +223,6 @@ section {
 .product-list,
 .product-row {
   display: flex;
-  justify-content: space-between;
   gap: var(--card-gap);
 }
 
