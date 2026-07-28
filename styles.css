@@ -295,6 +295,7 @@ section {
   height: 256px;
   object-fit: cover;
   display: block;
+  border-radius: 10px;
 }
 
 /* ================================
