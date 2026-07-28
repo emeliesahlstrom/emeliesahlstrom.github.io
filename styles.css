@@ -255,6 +255,10 @@ section {
   color: #D2D2D2;
 }
 
+.product-card p span {
+  font-weight: bold;
+}
+
 /* ================================
    BRAND STATEMENT
 ================================ */
