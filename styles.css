@@ -328,6 +328,12 @@ section {
   border: none;
 }
 
+.brand-card img#brand-heading {
+  width: 180px;
+  height: auto;
+  display: block;
+}
+
 /* ================================
    SHOP BY CATEGORY
 ================================ */
