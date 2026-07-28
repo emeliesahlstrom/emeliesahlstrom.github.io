@@ -201,7 +201,7 @@ section {
   padding: 10px 32px;
   border-radius: 7px;
 
-  display: inline-flex; 
+  display: flex; 
   justify-content: center; 
   align-items: center;
 
