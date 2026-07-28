@@ -227,7 +227,7 @@ section {
 }
 
 .product-card {
-  background: var(--color-secondary);
+  background: #F5F4F3;
   padding: var(--card-padding);
   display: flex;
   flex-direction: column;
