@@ -201,7 +201,12 @@ section {
   justify-content: space-between;
   align-items: center;
   margin-bottom: var(--space-xl);
+
+  background: #F0E0E3; /* pink background */
+  padding: 10px 32px; /* match your Figma spacing */
+  border-radius: 40px; /* rounded pill shape */
 }
+
 
 /* ================================
    FEATURED PRODUCTS
