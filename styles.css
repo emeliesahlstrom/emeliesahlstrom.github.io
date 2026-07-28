@@ -232,14 +232,14 @@ section {
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
+  width: 353px;
+}
+
+.product-card figure {
+  margin: 0;
 }
 
 .product-card img {
-  width: 100%;
-  display: block;
-}
-
-.product-card img[src*="product-card-01-desktop.png"] {
   width: 353px;
   height: 235px;
   object-fit: cover;
