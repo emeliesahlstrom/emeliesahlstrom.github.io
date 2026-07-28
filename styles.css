@@ -274,7 +274,9 @@ section {
 ================================ */
 
 .brand-layout {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: stretch;
   gap: var(--card-gap);
 }
 
