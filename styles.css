@@ -203,7 +203,7 @@ section {
 
   display: flex; 
   justify-content: center; 
-  align-items: left-align;
+  align-items: flex-start;
 
   margin-bottom: var(--space-xl);
 }
