@@ -198,17 +198,21 @@ section {
 
 .section-header {
   background: #F0E0E3;
-  padding: 5px 32px;
+  padding: 4px 24px;      
   border-radius: 7px;
 
   display: flex;
-  justify-content: flex-start;   /* left-align the text */
+  justify-content: flex-start;
   align-items: center;
 
   max-width: var(--content-max-width);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: var(--space-xl);
+}
+
+.section-header h2 {
+  line-height: 1;   
 }
 
 
