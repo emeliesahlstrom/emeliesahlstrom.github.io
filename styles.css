@@ -289,9 +289,9 @@ section {
 .brand-card {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl);
+  gap: var(--space-lg);
   background: var(--color-secondary);
-  padding: var(--space-2xl);
+  padding: var(--space-xl);
   border-radius: 10px;
   flex: 1;
 }
