@@ -448,8 +448,7 @@ section {
 footer {
   background: #F0E0E3;
   border-radius: 10px;
-  padding-top: var(--section-padding-y);
-  padding-bottom: var(--section-padding-y);
+  padding: var(--section-padding-y) var(--space-2xl);
 }
 
 .footer-top {
