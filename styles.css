@@ -374,6 +374,9 @@ section {
   margin: 0;
 }
 
+#shop-by-category .section-header {
+  justify-content: center;
+}
 
 /* ================================
    INSTAGRAM SECTION
