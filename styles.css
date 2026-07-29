@@ -37,6 +37,11 @@
 /* ================================
    ROOT DESIGN SYSTEM
 ================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} 
 
 :root {
   /* Colours */
