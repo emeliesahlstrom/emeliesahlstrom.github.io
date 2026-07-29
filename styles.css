@@ -397,6 +397,12 @@ section {
   background: none;
 }
 
+#instagram {
+  background: #F2F2EF;
+  border-radius: 10px;
+  padding: var(--space-2xl);
+}
+
 /* ================================
    FOOTER
 ================================ */
