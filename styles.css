@@ -398,6 +398,10 @@ section {
   justify-content: space-between;
 }
 
+#instagram .section-header button {
+  border: 1px solid #4E4E4C;
+}
+
 #instagram {
   background: #F2F2EF;
   border-radius: 10px;
