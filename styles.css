@@ -231,6 +231,18 @@ section {
   line-height: 1;   
 }
 
+/* ================================
+   SHOP PAGE BANNER
+================================ */
+
+.shop-banner img {
+  width: 1280px;
+  height: 394px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
 
 /* ================================
    FEATURED PRODUCTS
