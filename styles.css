@@ -569,3 +569,14 @@ footer {
   color: #4E4E4C;
   border: 1px solid #4E4E4C;
 }
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.filter-sort {
+  margin-left: auto;
+  background: none;
+}
