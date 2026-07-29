@@ -385,12 +385,20 @@ section {
 .instagram-gallery,
 .instagram-row {
   display: flex;
-  gap: var(--card-gap);
+  gap: var(--space-md);
+}
+
+.instagram-card {
+  flex: 1;
+  margin: 0;
 }
 
 .instagram-card img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
   display: block;
+  border-radius: 10px;
 }
 
 #instagram .section-header {
