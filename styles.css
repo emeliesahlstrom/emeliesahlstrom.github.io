@@ -107,6 +107,11 @@ body {
   margin: 0;
 }
 
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 
 main, header, footer {
   max-width: var(--content-max-width);
