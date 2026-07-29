@@ -532,3 +532,8 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+.footer-bottom-left {
+  display: flex;
+  gap: var(--space-lg);
+}
