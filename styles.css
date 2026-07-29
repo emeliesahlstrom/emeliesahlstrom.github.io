@@ -420,6 +420,13 @@ section {
   padding: var(--space-2xl);
 }
 
+.instagram-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+
 /* ================================
    FOOTER
 ================================ */
