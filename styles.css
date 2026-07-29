@@ -580,3 +580,11 @@ footer {
   margin-left: auto;
   background: none;
 }
+
+.shop-banner {
+  padding-bottom: 0;
+}
+
+.shop-filters {
+  padding-top: var(--space-md);
+}
