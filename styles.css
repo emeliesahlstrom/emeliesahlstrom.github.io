@@ -374,6 +374,10 @@ section {
   margin: 0;
 }
 
+#category-heading {
+  margin-bottom: var(--space-xl);
+}
+
 /* ================================
    INSTAGRAM SECTION
 ================================ */
