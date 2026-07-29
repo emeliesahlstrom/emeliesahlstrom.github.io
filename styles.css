@@ -357,9 +357,21 @@ section {
   border-radius: 10px;
 }
 
-figcaption {
-  margin-top: var(--space-md);
+.category-card figure {
+  position: relative;
+  margin: 0;
+}
+
+.category-card figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: var(--font-heading);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
 }
 
 /* ================================
