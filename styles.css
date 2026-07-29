@@ -522,8 +522,8 @@ footer {
 }
 
 .footer-logo img {
-  width: 85%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1400px;
   height: auto;
   display: inline-block;
 }
