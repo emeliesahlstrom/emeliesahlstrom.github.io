@@ -152,9 +152,10 @@ nav a {
   margin-right: var(--space-md);
 }
 
-.nav-logo {
-  font-size: 48px;
-  font-family: var(--font-heading);
+.nav-logo img {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 
