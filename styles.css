@@ -237,12 +237,10 @@ section {
 
 .shop-banner img {
   width: 100%;
-  max-width: 1280px;
   height: 394px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
-  margin: 0 auto;
 }
 
 
