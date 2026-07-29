@@ -451,6 +451,12 @@ footer {
   padding: var(--section-padding-y) var(--space-2xl);
 }
 
+.footer-column a,
+.footer-bottom-left a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
