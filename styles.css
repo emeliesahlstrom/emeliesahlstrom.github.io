@@ -480,6 +480,10 @@ footer {
   display: block;
 }
 
+.footer-column h3 {
+  margin-bottom: var(--space-sm);
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
