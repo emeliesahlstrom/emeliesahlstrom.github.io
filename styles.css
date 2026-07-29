@@ -401,6 +401,8 @@ section {
 #instagram .section-header button {
   border: 1px solid #4E4E4C;
   font-size: 14px;
+  font-weight: 600;
+  color: #4E4E4C;
 }
 
 #instagram {
