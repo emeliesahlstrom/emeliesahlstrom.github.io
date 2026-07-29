@@ -469,19 +469,22 @@ footer {
 }
 
 #newsletter-email {
-  width: 320px;
+  width: 420px;
   padding: var(--space-sm) var(--space-lg);
   border: 1px solid var(--color-text);
   border-radius: 30px;
   font-family: var(--font-body);
   font-size: var(--body-size);
-  margin-top: var(--space-sm);
   margin-bottom: var(--space-sm);
   display: block;
 }
 
 .footer-column h3 {
   margin-bottom: var(--space-sm);
+}
+
+.footer-left h3 {
+  margin-bottom: var(--space-md);
 }
 
 .footer-top {
