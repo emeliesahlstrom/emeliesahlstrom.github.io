@@ -395,6 +395,7 @@ section {
 
 #instagram .section-header {
   background: none;
+  justify-content: space-between;
 }
 
 #instagram {
