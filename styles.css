@@ -518,7 +518,8 @@ footer {
 
 .footer-logo {
   text-align: center;
-  margin: var(--space-2xl) 0;
+  margin-top: var(--space-3xl);
+  margin-bottom: var(--space-2xl);
 }
 
 .footer-logo img {
