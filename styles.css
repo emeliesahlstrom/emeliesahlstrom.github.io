@@ -404,6 +404,7 @@ section {
 #instagram .section-header {
   background: none;
   justify-content: space-between;
+  padding: 0;
 }
 
 #instagram .section-header button {
