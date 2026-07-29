@@ -518,9 +518,14 @@ footer {
 
 .footer-logo {
   text-align: center;
-  font-family: var(--font-heading);
-  font-size: 32px;
-  margin-bottom: var(--space-2xl);
+  margin: var(--space-2xl) 0;
+}
+
+.footer-logo img {
+  width: 60%;
+  max-width: 900px;
+  height: auto;
+  display: inline-block;
 }
 
 .footer-bottom {
