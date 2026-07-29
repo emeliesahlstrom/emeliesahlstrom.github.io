@@ -449,6 +449,7 @@ footer {
   background: #F0E0E3;
   border-radius: 10px;
   padding: var(--section-padding-y) var(--space-2xl);
+  margin-top: var(--space-2xl);
 }
 
 .footer-column a,
