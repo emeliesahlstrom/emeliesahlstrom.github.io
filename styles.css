@@ -623,30 +623,25 @@ footer {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
   padding: 0;
   margin: 0;
   font-size: 16px;
 }
 
-.breadcrumb-list li {
+.breadcrumb-pill {
+  display: inline-block;
   background: #F0E0E3;
   padding: 8px 16px;
   border-radius: 2px;
   font-weight: 600;
 }
 
-.breadcrumb-list li::after {
-  content: "/";
-  display: inline-block;
-  margin-left: 16px;
+.breadcrumb-separator {
   font-size: 24px;
-  transform: rotate(15deg);
   color: #4E4E4C;
-}
-
-.breadcrumb-list li:last-child::after {
-  content: "";
+  transform: rotate(15deg);
+  display: inline-block;
 }
 
 .breadcrumb-list a {
