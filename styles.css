@@ -615,4 +615,6 @@ footer {
   color: #4E4E4C;
   font-size: 12px;
   text-transform: uppercase;
+  padding: var(--space-sm) var(--space-2xl);
 }
+
