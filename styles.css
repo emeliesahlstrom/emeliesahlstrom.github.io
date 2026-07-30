@@ -596,7 +596,17 @@ footer {
 }
 
 .load-more {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.load-more::before,
+.load-more::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #4E4E4C;
 }
 
 .load-more button {
