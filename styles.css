@@ -594,3 +594,15 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   gap: var(--card-gap);
 }
+
+.load-more {
+  text-align: center;
+}
+
+.load-more button {
+  background: none;
+  border: 1px solid #4E4E4C;
+  color: #4E4E4C;
+  font-size: 12px;
+  text-transform: uppercase;
+}
