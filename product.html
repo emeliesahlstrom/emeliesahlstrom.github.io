@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eloré – Tinted Lip Balm</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ================================
+       NAVIGATION 
+  ================================= -->
+  <header>
+    <nav aria-label="Main navigation">
+
+      <div class="nav-left">
+        <a href="shop.html">SHOP</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="skin-quiz.html">SKIN QUIZ</a>
+      </div>
+
+      <div class="nav-center">
+        <a href="index.html" class="nav-logo" aria-label="Eloré homepage">
+          <img src="images/logo.png" alt="Eloré logo">
+        </a>
+      </div>
+
+      <div class="nav-right">
+        <a href="search.html">SEARCH</a>
+        <a href="account.html">ACCOUNT</a>
+        <a href="cart.html">CART</a>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <!-- ================================
+       BREADCRUMB
+  ================================= -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="makeup.html">Make-up</a></li>
+      <li aria-current="page">Lip balm</li>
+    </ul>
+  </nav>
+
+
+  <main>
+
+    <!-- ================================
+         PRODUCT DETAIL SECTION
+    ================================= -->
+    <section class="product-detail">
+
+      <!-- LEFT COLUMN: IMAGE GALLERY -->
+      <div class="product-gallery">
+
+        <figure>
+          <img src="images/product-main-tinted-lip-balm.jpeg" alt="Tinted Lip Balm main image">
+        </figure>
+
+        <div class="gallery-thumbnails">
+          <figure>
+            <img src="images/product-thumb-1.jpeg" alt="Tinted Lip Balm thumbnail 1">
+          </figure>
+          <figure>
+            <img src="images/product-thumb-2.jpeg" alt="Tinted Lip Balm thumbnail 2">
+          </figure>
+          <figure>
+            <img src="images/product-thumb-3.jpeg" alt="Tinted Lip Balm thumbnail 3">
+          </figure>
+        </div>
+
+      </div>
+
+
+      <!-- RIGHT COLUMN: PRODUCT INFO -->
+      <div class="product-info">
+
+        <h1>TINTED LIP BALM</h1>
+        <p>Hydrating + Tinted shine</p>
+
+        <div class="product-rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span class="star-empty">★</span>
+        </div>
+
+        <p>
+          Our tinted lip balm is formulated to hydrate and protect your lips while leaving a glossy, shiny finish.
+          It is infused with ingredients such as shea butter and peptides to nourish, moisturise and plump your lips
+          while reducing the appearance of fine lines. The complete collection comes in six shades - petal, peachy,
+          rose, candy floss, raspberry swirl and pomegranate.
+        </p>
+
+        <!-- SHADE SWATCHES -->
+        <div class="shade-swatches">
+          <button type="button" style="background:#F0E0E3" aria-label="petal"></button>
+          <button type="button" style="background:#FFCDCD" aria-label="peachy"></button>
+          <button type="button" style="background:#FFA1A1" aria-label="rose"></button>
+          <button type="button" style="background:#F18FA1" aria-label="candy floss"></button>
+          <button type="button" style="background:#E16E83" aria-label="raspberry swirl"></button>
+          <button type="button" style="background:#A54254" aria-label="pomegranate"></button>
+        </div>
+
+        <!-- QUANTITY SELECTOR -->
+        <div class="quantity-selector">
+          <button type="button" aria-label="Decrease quantity">-</button>
+          <span>1</span>
+          <button type="button" aria-label="Increase quantity">+</button>
+        </div>
+
+        <!-- ADD TO CART -->
+        <button type="button">add to cart - 16AUD</button>
+
+        <!-- ACCORDIONS -->
+        <button type="button" class="accordion-trigger">Details</button>
+        <div class="accordion-content"></div>
+
+        <button type="button" class="accordion-trigger">How to use</button>
+        <div class="accordion-content"></div>
+
+        <button type="button" class="accordion-trigger">Key ingredients</button>
+        <div class="accordion-content"></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================================
+         YOU MAY ALSO LIKE
+    ================================= -->
+    <section class="related-products">
+
+      <header class="section-header">
+        <h2>You may also like</h2>
+      </header>
+
+      <div class="related-row">
+
+        <!-- Product A -->
+        <article class="product-card">
+          <figure>
+            <img src="images/related-01.jpeg" alt="Related product 1">
+          </figure>
+          <div class="product-rating">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="star-empty">★</span>
+          </div>
+          <p class="product-title-price">
+            <strong>Hydrating toner essence</strong>
+            <span>29AUD</span>
+          </p>
+          <p>Toner</p>
+          <button type="button">shop now</button>
+        </article>
+
+        <!-- Product B -->
+        <article class="product-card">
+          <figure>
+            <img src="images/related-02.jpeg" alt="Related product 2">
+          </figure>
+          <div class="product-rating">
+            <span>★</span><span>★</span><span>★</span><span class="star-empty">★</span><span class="star-empty">★</span>
+          </div>
+          <p class="product-title-price">
+            <strong>Peptide face serum</strong>
+            <span>26AUD</span>
+          </p>
+          <p>Serum</p>
+          <button type="button">shop now</button>
+        </article>
+
+        <!-- Product C -->
+        <article class="product-card">
+          <figure>
+            <img src="images/related-03.jpeg" alt="Related product 3">
+          </figure>
+          <div class="product-rating">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="product-title-price">
+            <strong>Overnight lip mask</strong>
+            <span>25AUD</span>
+          </p>
+          <p>Lip mask</p>
+          <button type="button">shop now</button>
+        </article>
+
+      </div>
+
+      <!-- Carousel arrows -->
+      <div class="related-controls">
+        <button aria-label="Previous product">←</button>
+        <button aria-label="Next product">→</button>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================================
+       FOOTER 
+  ================================= -->
+  <footer aria-label="Site footer">
+
+    <div class="footer-top">
+
+      <div class="footer-left">
+        <h3>sign up for updates</h3>
+        <form action="#" method="post">
+          <label for="newsletter-email" class="visually-hidden">Email address</label>
+          <input id="newsletter-email" type="email" name="email" placeholder="email address" required>
+          <p>by signing up you agree to our terms &amp; conditions</p>
+        </form>
+      </div>
+
+      <div class="footer-right">
+
+        <div class="footer-column">
+          <h3>CUSTOMER SERVICE</h3>
+          <ul>
+            <li><a href="#contact">Contact us</a></li>
+            <li><a href="#shipping-returns">Shipping &amp; Returns</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>FOLLOW US</h3>
+          <ul>
+            <li><a href="#instagram">Instagram</a></li>
+            <li><a href="#tiktok">TikTok</a></li>
+            <li><a href="#youtube">Youtube</a></li>
+            <li><a href="#pinterest">Pinterest</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-logo">
+      <img src="images/logo.png" alt="Eloré logo">
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-left">
+        <a href="#terms">Terms &amp; conditions</a>
+        <a href="#privacy">Privacy policy</a>
+        <a href="#accessibility">Accessibility</a>
+      </div>
+      <div class="footer-bottom-right">
+        <small>© Eloré 2026</small>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+</html>
