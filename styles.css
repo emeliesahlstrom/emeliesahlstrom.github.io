@@ -643,3 +643,37 @@ footer {
   padding: var(--space-sm) var(--space-2xl);
 }
 
+.breadcrumb-list {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.breadcrumb-list li {
+  background: #F0E0E3;     
+  padding: 4px 10px;
+  border-radius: 2px;      
+}
+
+.breadcrumb-list li::after {
+  content: "/";
+  margin-left: 8px;
+  color: #4E4E4C;
+}
+
+.breadcrumb-list li:last-child::after {
+  content: "";
+}
+
+.breadcrumb-list a {
+  text-decoration: none;
+  color: #4E4E4C;
+}
+
+.breadcrumb-list li[aria-current="page"] {
+  font-weight: 700;
+}
+
