@@ -1104,13 +1104,19 @@ nav.nav-open .nav-right {
     object-fit: cover;
   }
 
-#instagram .section-header h2 {
-    font-size: 18px;
+#instagram .section-header {
+    padding: var(--space-xs) var(--space-sm);
+  }
+
+  #instagram .section-header h2 {
+    font-size: 15px;
+    white-space: nowrap;
   }
 
   #instagram .section-header button {
-    font-size: 12px;
-    padding: var(--space-xs) var(--space-md);
+    font-size: 11px;
+    padding: var(--space-xs) var(--space-sm);
+    white-space: nowrap;
   }
 
   .instagram-controls {
