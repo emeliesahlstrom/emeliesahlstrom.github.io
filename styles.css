@@ -1110,6 +1110,36 @@ nav.nav-open .nav-right {
     height: 300px;
     object-fit: cover;
   }
+
+#instagram .section-header h2 {
+    font-size: 18px;
+  }
+
+  #instagram .section-header button {
+    font-size: 12px;
+    padding: var(--space-xs) var(--space-md);
+  }
+
+  .instagram-controls {
+    display: none;
+  }
+
+  #instagram .instagram-row {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: var(--space-sm);
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #instagram .instagram-card {
+    flex: 0 0 calc(50% - var(--space-sm) / 2);
+    scroll-snap-align: start;
+  }
+
+  #instagram .instagram-card img {
+    height: 220px;
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
