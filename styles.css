@@ -632,9 +632,10 @@ footer {
 .breadcrumb-pill {
   display: inline-block;
   background: #F0E0E3;
-  padding: 8px 24px;
+  padding: 4px 14px;
   border-radius: 2px;
   font-weight: 600;
+  font-size: 13px;
 }
 
 .breadcrumb-separator {
@@ -647,7 +648,7 @@ footer {
 .breadcrumb-list a {
   text-decoration: none;
   color: #4E4E4C;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   margin-right: 0;
 }
