@@ -1168,6 +1168,21 @@ nav.nav-open .nav-right {
   .footer-left form {
     width: 100%;
   }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+    gap: var(--space-xs) var(--space-md);
+  }
+
+  .footer-bottom-left {
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+
+  .footer-bottom a,
+  .footer-bottom small {
+    font-size: 11px;
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
