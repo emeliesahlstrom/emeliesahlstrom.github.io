@@ -871,8 +871,8 @@ footer {
 }
   
   /* HERO */
-  #home .hero-content {
-    height: 320px;
+#home .hero-content {
+    height: 480px;
     padding: var(--space-md);
     justify-content: flex-end;
     background-position: right center;
