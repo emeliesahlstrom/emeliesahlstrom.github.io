@@ -170,6 +170,9 @@ nav a {
   margin-right: 0;
 }
 
+.hamburger {
+  display: none;
+} 
 
 /* ================================
    HERO SECTION
@@ -925,7 +928,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 376px) and (max-width: 768px) {
 
   /* GLOBAL */
   body {
