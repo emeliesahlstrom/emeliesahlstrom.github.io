@@ -1067,6 +1067,29 @@ nav.nav-open .nav-right {
     width: 100%;
     height: 140px;
   }
+
+  .brand-card img#brand-heading {
+    width: 80px;
+  }
+
+  .brand-description p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .brand-card {
+    gap: var(--space-sm);
+    padding: var(--space-md);
+  }
+
+  .brand-actions {
+    margin-top: var(--space-sm);
+  }
+
+  .brand-actions button {
+    font-size: 14px;
+    padding: var(--space-xs) var(--space-md);
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
