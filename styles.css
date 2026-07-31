@@ -1150,6 +1150,14 @@ nav.nav-open .nav-right {
 .carousel-wrapper.no-fade::after {
     display: none;
   }
+
+  #instagram {
+    padding: var(--space-md);
+  }
+
+  #instagram .instagram-row {
+    gap: var(--space-xs);
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
