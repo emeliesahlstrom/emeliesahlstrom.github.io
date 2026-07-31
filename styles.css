@@ -250,7 +250,8 @@ section {
 ================================ */
 
 .product-list,
-.product-row {
+.product-row,
+.related-row {
   display: flex;
   gap: var(--card-gap);
 }
