@@ -778,10 +778,6 @@ footer {
   border-bottom: 1px solid var(--color-accent);
 }
 
-.accordion-trigger:first-of-type {
-  margin-top: auto;
-}
-
 .accordion-content {
   display: none;
 }
