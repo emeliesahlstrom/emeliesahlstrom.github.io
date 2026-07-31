@@ -938,6 +938,23 @@ footer {
     flex: 0 0 calc(50% - var(--space-md) / 2);
     scroll-snap-align: start;
   }
+  #featured-products .product-card img {
+    height: 160px;
+  }
+
+  #featured-products .product-title-price {
+    font-size: 13px;
+    flex-wrap: nowrap;
+  }
+
+  #featured-products .product-title-price strong {
+    white-space: normal;
+    flex: 1;
+  }
+
+  #featured-products .product-card p {
+    font-size: 12px;
+  }
 
   /* SHOP PAGE GRID → 1 column */
   .product-grid {
