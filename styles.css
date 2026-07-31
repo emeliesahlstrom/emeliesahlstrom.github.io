@@ -870,11 +870,25 @@ footer {
   order: 1;
 }
   
-  /* HERO */
+/* HERO */
   #home .hero-content {
-    height: auto;
-    padding-left: 0;
-    text-align: left;
+    height: 320px;
+    padding: var(--space-md);
+    justify-content: flex-end;
+    background-position: right center;
+  }
+
+  #home .hero-content #hero-title {
+    font-size: 24px;
+  }
+
+  #home .hero-content p {
+    font-size: 13px;
+    max-width: 60%;
+  }
+
+  #home .hero-content .hero-kicker {
+    font-size: 12px;
   }
 
   /* PRODUCT CARDS → 1 column */
