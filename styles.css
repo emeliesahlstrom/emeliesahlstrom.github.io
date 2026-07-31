@@ -702,6 +702,11 @@ footer {
   line-height: 1.6;
 }
 
+.product-rating {
+  font-size: 22px;
+  margin-bottom: var(--space-md);
+}
+
 .shade-swatches {
   display: flex;
   gap: var(--space-sm);
