@@ -1160,6 +1160,14 @@ nav.nav-open .nav-right {
   #instagram .instagram-row {
     gap: var(--space-xs);
   }
+
+#newsletter-email {
+    width: 100%;
+  }
+
+  .footer-left form {
+    width: 100%;
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
