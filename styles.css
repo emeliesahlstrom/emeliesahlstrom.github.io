@@ -970,6 +970,21 @@ footer {
   #featured-products .product-card {
     gap: var(--space-xs);
   }
+
+  .carousel-wrapper {
+    position: relative;
+  }
+
+  .carousel-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    background: linear-gradient(to right, transparent, #FFFFFF);
+    pointer-events: none;
+  }
   
   /* SHOP PAGE GRID → 1 column */
   .product-grid {
