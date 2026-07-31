@@ -1106,17 +1106,22 @@ nav.nav-open .nav-right {
 
 #instagram .section-header {
     padding: var(--space-xs) var(--space-sm);
+    justify-content: flex-start;
   }
 
   #instagram .section-header h2 {
-    font-size: 15px;
-    white-space: nowrap;
+    font-size: 18px;
   }
 
-  #instagram .section-header button {
-    font-size: 11px;
-    padding: var(--space-xs) var(--space-sm);
-    white-space: nowrap;
+  .instagram-follow {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: var(--space-sm);
+  }
+
+  .instagram-follow button {
+    font-size: 13px;
+    padding: var(--space-xs) var(--space-md);
   }
 
   .instagram-controls {
@@ -1132,7 +1137,7 @@ nav.nav-open .nav-right {
   }
 
   #instagram .instagram-card {
-    flex: 0 0 calc(50% - var(--space-sm) / 2);
+    flex: 0 0 calc(50% - var(--space-sm) / 1.5);
     scroll-snap-align: start;
   }
 
