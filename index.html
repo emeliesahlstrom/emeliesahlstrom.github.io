@@ -25,6 +25,14 @@
   </a>
 </div>
 
+  <!-- Hamburger button (for mobile) -->
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    
     <div class="nav-right">
       <a href="#search">SEARCH</a>
       <a href="#account">ACCOUNT</a>
@@ -296,5 +304,18 @@
   </div>
 </footer>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('header nav');
+    var hamburger = document.querySelector('.hamburger');
+
+    if (nav && hamburger) {
+      hamburger.addEventListener('click', function () {
+        nav.classList.toggle('nav-open');
+      });
+    }
+  });
+</script>
+  
 </body>
 </html>
