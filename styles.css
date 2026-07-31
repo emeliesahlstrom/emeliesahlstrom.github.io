@@ -1083,7 +1083,7 @@ nav.nav-open .nav-right {
   }
 
 .brand-actions {
-    margin-top: var(--space-2xl);
+    margin-top: var(--space-3xl);
     gap: var(--space-md);
   }
 
