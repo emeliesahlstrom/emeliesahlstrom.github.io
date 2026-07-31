@@ -908,6 +908,10 @@ footer {
     font-size: 12px;
   }
 
+.section-header {
+    padding: 8px 16px;
+  }
+  
   /* PRODUCT CARDS → 1 column */
   .product-row,
   .product-list,
