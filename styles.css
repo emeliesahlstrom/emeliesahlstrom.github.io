@@ -936,6 +936,30 @@ footer {
   .footer-right {
     flex-direction: column;
   }
+
+header {
+  height: auto;
+  min-height: var(--nav-height);
+}
+
+nav.nav-open {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav.nav-open .nav-center {
+  order: 1;
+  width: 100%;
+}
+
+nav.nav-open .nav-left {
+  order: 2;
+  width: 100%;
+}
+
+nav.nav-open .nav-right {
+  order: 3;
+  width: 100%;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
