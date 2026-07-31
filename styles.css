@@ -1090,6 +1090,10 @@ nav.nav-open .nav-right {
     font-size: 14px;
     padding: var(--space-xs) var(--space-md);
   }
+
+  #brand-statement {
+    padding-top: var(--space-md);
+  } 
   
 @media (min-width: 376px) and (max-width: 768px) {
 
