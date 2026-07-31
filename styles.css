@@ -847,14 +847,12 @@ footer {
     display: block;
   }
 
-  /* Show hamburger */
   .nav-center {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
-
-  /* When nav-open is toggled */
+  
   nav.nav-open .nav-left,
   nav.nav-open .nav-right {
     display: flex;
@@ -863,6 +861,14 @@ footer {
     margin-top: 16px;
   }
 
+  .nav-logo {
+  order: 2;
+}
+
+.hamburger {
+  order: 1;
+}
+  
   /* HERO */
   #home .hero-content {
     height: auto;
