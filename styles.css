@@ -1133,6 +1133,10 @@ nav.nav-open .nav-right {
   #instagram .instagram-card img {
     height: 220px;
   }
+
+.carousel-wrapper.no-fade::after {
+    display: none;
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
