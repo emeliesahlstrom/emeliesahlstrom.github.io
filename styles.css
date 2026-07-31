@@ -1082,8 +1082,8 @@ nav.nav-open .nav-right {
     padding: var(--space-md);
   }
 
-  .brand-actions {
-    margin-top: var(--space-sm);
+ .brand-actions {
+    margin-top: var(--space-xl);
   }
 
   .brand-actions button {
