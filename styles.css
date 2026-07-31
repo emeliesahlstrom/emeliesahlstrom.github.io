@@ -669,7 +669,7 @@ footer {
 
 .product-gallery > figure img {
   width: 100%;
-  height: 500px;
+  height: 380px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
@@ -688,7 +688,7 @@ footer {
 
 .gallery-thumbnails img {
   width: 100%;
-  height: 150px;
+  height: 110px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
