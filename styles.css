@@ -777,6 +777,10 @@ footer {
   border-bottom: 1px solid var(--color-accent);
 }
 
+.accordion-trigger:first-of-type {
+  margin-top: auto;
+}
+
 .accordion-content {
   display: none;
 }
@@ -785,4 +789,9 @@ footer {
   margin: 0 0 var(--space-md) 0;
   padding: 0;
   margin-left: -3px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
 }
