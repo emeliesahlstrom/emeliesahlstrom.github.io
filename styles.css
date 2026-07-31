@@ -1113,15 +1113,17 @@ nav.nav-open .nav-right {
     font-size: 18px;
   }
 
-  .instagram-follow {
+ .instagram-follow {
     display: flex;
     justify-content: flex-end;
-    margin-top: var(--space-sm);
+    margin-top: var(--space-lg);
   }
 
   .instagram-follow button {
     font-size: 13px;
     padding: var(--space-xs) var(--space-md);
+    border: 1px solid #4E4E4C;
+    color: #4E4E4C;
   }
 
   .instagram-controls {
