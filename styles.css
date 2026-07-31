@@ -687,7 +687,7 @@ footer {
 
 .gallery-thumbnails img {
   width: 100%;
-  height: 120px;
+  height: 220px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
