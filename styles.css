@@ -872,15 +872,12 @@ footer {
   
   /* HERO */
 #home .hero-content {
-  height: 400px;
-  padding: var(--space-md);
-  justify-content: flex-end;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #F2EFEA;
-  position: relative;
-}
+    height: 400px;
+    padding: var(--space-md);
+    justify-content: flex-end;
+    background-position: center 20%;
+    position: relative;
+  }
 
   #home .hero-content::before {
     content: "";
@@ -909,7 +906,7 @@ footer {
   }
 
 .section-header {
-    padding: 8px 16px;
+    padding: 4px 16px;
   }
   
   /* PRODUCT CARDS → 1 column */
