@@ -907,6 +907,12 @@ footer {
 
 .section-header {
     padding: 4px 16px;
+    min-height: 0;
+  }
+
+  .section-header h2 {
+    line-height: 1.2;
+    margin: 4px 0;
   }
   
   /* PRODUCT CARDS → 1 column */
