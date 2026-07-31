@@ -793,3 +793,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+.related-controls {
+  display: none;
+}
