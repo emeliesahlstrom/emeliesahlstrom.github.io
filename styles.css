@@ -1095,6 +1095,10 @@ nav.nav-open .nav-right {
   #brand-statement {
     padding-top: var(--space-md);
   } 
+
+  #shop-by-category {
+    padding-top: var(--space-md);
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
