@@ -23,11 +23,18 @@
         <a href="skin-quiz.html">SKIN QUIZ</a>
       </div>
 
-      <div class="nav-center">
-        <a href="index.html" class="nav-logo" aria-label="Eloré homepage">
-         <img src="https://emeliesahlstrom.github.io/images/elore-logo-nav.png" alt="Eloré">
+     <div class="nav-center">
+  <a href="index.html" class="nav-logo" aria-label="Eloré homepage">
+    <img src="https://emeliesahlstrom.github.io/images/elore-logo-nav.png" alt="Eloré">
   </a>
-      </div>
+
+  <!-- Hamburger button (mobile only) -->
+  <button class="hamburger" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</div>
 
       <div class="nav-right">
         <a href="search.html">SEARCH</a>
@@ -284,5 +291,18 @@
 
   </footer>
 
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('header nav');
+    var hamburger = document.querySelector('.hamburger');
+
+    if (nav && hamburger) {
+      hamburger.addEventListener('click', function () {
+        nav.classList.toggle('nav-open');
+      });
+    }
+  });
+</script>
+  
 </body>
 </html>
