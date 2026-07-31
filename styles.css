@@ -924,9 +924,19 @@ footer {
     gap: var(--space-md);
   }
 
-  /* Featured products → 2 columns */
+ /* Featured products → swipeable carousel, 2 cards visible */
   #featured-products .product-row {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: var(--space-md);
+    padding-bottom: var(--space-sm);
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #featured-products .product-card {
+    flex: 0 0 calc(50% - var(--space-md) / 2);
+    scroll-snap-align: start;
   }
 
   /* SHOP PAGE GRID → 1 column */
