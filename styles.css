@@ -1298,6 +1298,14 @@ nav.nav-open .nav-right {
   footer {
     margin-top: var(--space-lg);
   }
+
+  .product-detail {
+    padding-top: var(--space-sm);
+  }
+
+  .breadcrumb {
+    margin-bottom: 0;
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
