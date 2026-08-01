@@ -1290,6 +1290,14 @@ nav.nav-open .nav-right {
   .related-row .product-card {
     gap: var(--space-xs);
   }
+
+.related-products {
+    padding-bottom: var(--space-md);
+  }
+
+  footer {
+    margin-top: var(--space-lg);
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
