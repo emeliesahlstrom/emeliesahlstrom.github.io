@@ -814,6 +814,10 @@ footer {
     padding-right: 16px;
   }
 
+  .product-info h1 {
+    font-size: 32px;
+  }
+  
   h1, h2, h3, p, a, button {
     font-size: calc(var(--body-size) * 0.85);
   }
