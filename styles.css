@@ -878,7 +878,7 @@ footer {
   /* HERO */
 #home .hero-content {
     height: 280px;
-    padding: var(--space-md);
+    padding: var(--space-md) var(--space-md) var(--space-lg) var(--space-md);
     justify-content: flex-end;
     background-position: center 15%;
     position: relative;
@@ -886,7 +886,7 @@ footer {
   }
 
   #home .hero-content::before {
-    background: linear-gradient(to top, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.5) 45%, transparent 75%);
+    background: linear-gradient(to top right, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.6) 40%, transparent 70%);
   }
 
   #home .hero-content::before {
