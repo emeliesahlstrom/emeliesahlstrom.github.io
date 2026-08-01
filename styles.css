@@ -1243,6 +1243,53 @@ nav.nav-open .nav-right {
   .shop-filters {
     padding-bottom: var(--space-sm);
   }
+
+#related-products .related-row,
+  .related-products .related-row {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: var(--space-md);
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .related-row .product-card {
+    flex: 0 0 calc(50% - var(--space-md) / 2);
+    scroll-snap-align: start;
+  }
+
+  .related-row .product-card img {
+    height: 140px;
+  }
+
+  .related-row .product-rating {
+    font-size: 14px;
+    margin-bottom: var(--space-xs);
+  }
+
+  .related-row .product-title-price {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 13px;
+  }
+
+  .related-row .product-title-price strong {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+
+  .related-row .product-title-price span {
+    font-size: 13px;
+  }
+
+  .related-row .product-card p {
+    font-size: 12px;
+  }
+
+  .related-row .product-card {
+    gap: var(--space-xs);
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
