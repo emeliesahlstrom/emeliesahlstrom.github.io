@@ -1306,6 +1306,10 @@ nav.nav-open .nav-right {
   .breadcrumb {
     margin-bottom: 0;
   }
+
+.add-to-cart {
+    font-size: 14px;
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
