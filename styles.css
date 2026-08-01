@@ -987,11 +987,12 @@ footer {
     pointer-events: none;
   }
   
-  /* SHOP PAGE GRID → 1 column */
+ /* SHOP PAGE GRID → 2 columns */
   .product-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
   }
-
+  
   /* PRODUCT DETAIL PAGE */
   .product-detail {
     display: flex;
