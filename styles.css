@@ -1233,7 +1233,7 @@ nav.nav-open .nav-right {
   }
 
 .product-grid {
-    padding-top: 0;
+    padding-top: var(--space-md);
   }
 
   .shop-filters {
