@@ -1071,6 +1071,11 @@ nav.nav-open .nav-right {
   width: 100%;
 }
 
+  nav.nav-open a:hover,
+  nav.nav-open a:active {
+    color: #F0E0E3;
+  }
+  
   #brand-statement .brand-layout {
     display: flex;
     flex-direction: column;
