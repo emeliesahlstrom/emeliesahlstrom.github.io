@@ -493,13 +493,15 @@ section {
 
 .instagram-follow {
   position: absolute;
-  top: var(--space-2xl);
+  top: calc(var(--space-2xl) - 6px);
   right: var(--space-2xl);
 }
 
 .instagram-follow button {
   border: 1px solid #4E4E4C;
   color: #4E4E4C;
+  font-size: 14px;
+  padding: var(--space-sm) var(--space-lg);
 }
 
 /* ================================
