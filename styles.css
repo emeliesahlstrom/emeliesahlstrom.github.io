@@ -38,6 +38,11 @@
   background: #FFFFFF;
 }
 
+.product-card button:hover,
+.product-card button:active {
+  background: #FFFFFF;
+}
+
 /* ================================
    ROOT DESIGN SYSTEM
 ================================ */
