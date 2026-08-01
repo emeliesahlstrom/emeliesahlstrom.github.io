@@ -173,10 +173,13 @@ nav a {
   display: block;
 }
 
-
 .nav-left a:last-child,
 .nav-right a:last-child {
   margin-right: 0;
+}
+
+nav a:hover {
+  color: #F0E0E3;
 }
 
 .hamburger {
