@@ -33,6 +33,10 @@
   color: #4E4E4C;
 }
 
+#home .hero-content button:hover,
+#home .hero-content button:active {
+  background: #FFFFFF;
+}
 
 /* ================================
    ROOT DESIGN SYSTEM
