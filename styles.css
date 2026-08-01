@@ -1183,6 +1183,10 @@ nav.nav-open .nav-right {
   .footer-bottom small {
     font-size: 11px;
   }
+
+.shop-banner img {
+    height: 160px;
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
