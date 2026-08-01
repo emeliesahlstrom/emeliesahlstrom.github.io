@@ -487,7 +487,7 @@ section {
   font-size: 16px;
 }
 
-#instagram .section-header {
+#instagram {
   position: relative;
 }
 
@@ -1156,10 +1156,11 @@ nav.nav-open .nav-right {
     font-size: 18px;
   }
 
- .instagram-follow {
+.instagram-follow {
+    position: static;
     display: flex;
     justify-content: flex-end;
-    margin-top: var(--space-lg);
+    margin-top: var(--space-sm);
   }
 
   .instagram-follow button {
