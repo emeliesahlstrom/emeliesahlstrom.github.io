@@ -1187,6 +1187,16 @@ nav.nav-open .nav-right {
 .shop-banner img {
     height: 160px;
   }
+
+  .filter-row {
+    flex-wrap: nowrap;
+    gap: var(--space-xs);
+  }
+
+  .filter-row button {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
   
 @media (min-width: 376px) and (max-width: 768px) {
 
