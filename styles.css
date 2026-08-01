@@ -883,6 +883,7 @@ footer {
     background-position: center 15%;
     position: relative;
     border-radius: 12px;
+    overflow: hidden;
   }
 
   #home .hero-content::before {
@@ -894,7 +895,7 @@ footer {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.4) 60%, transparent 100%);
-    border-radius: 20px;
+    border-radius: 12px;
   }
 
   #home .hero-content > * {
